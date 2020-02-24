@@ -15,7 +15,7 @@ public class Lemma {
 
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
-        String txt = "Fuck java. Good morning fucking java went. Hello World Fucking JavaScript.";
+        String txt = "java. went. Hello World JavaScript.";
         CoreDocument doc = new CoreDocument(txt);
 
         stanfordCoreNLP.annotate(doc);
