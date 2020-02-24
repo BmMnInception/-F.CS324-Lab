@@ -15,7 +15,7 @@ public class SentenceRun {
         StanfordCoreNLP stanfordCoreNLP = Pipeline.getPipeline();
 
 
-        String txt = "Hello my name is Enkhmanlai. It is code. Java is fuck.";
+        String txt = "Hello my name is Enkhmanlai. It is code.";
 
         CoreDocument doc = new CoreDocument(txt);
         stanfordCoreNLP.annotate(doc);
